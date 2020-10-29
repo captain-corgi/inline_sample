@@ -1,0 +1,15 @@
+Running tool: /Users/anh_tuan.l/sdk/go1.15.3/bin/go test -benchmem -run=^$ -bench .
+
+goos: darwin
+goarch: amd64
+BenchmarkMax-8   	737747802	         1.77 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	_/Users/anh_tuan.l/Desktop/GoWorkspace/inlining-sample/cmd/inline_sample	2.775s\
+
+Running tool: /Users/anh_tuan.l/sdk/go1.15.3/bin/go test -benchmem -run=^$ -bench .
+
+goos: darwin
+goarch: amd64
+BenchmarkMax-8   	1000000000	         0.390 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	_/Users/anh_tuan.l/Desktop/GoWorkspace/inlining-sample/cmd/inline_sample	2.947s
